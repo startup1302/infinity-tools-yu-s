@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu's Infinity Toolkit Pro</title>
+    <!-- Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300,400,600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4174837427530222"
+     crossorigin="anonymous"></script>
+
+<script type='text/javascript' src='//pl27855557.effectivegatecpm.com/59/dd/92/59dd92077278d7c39b1f199b8c992d3a.js'></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <!-- Simplified Sticky Header -->
+        <header class="app-header">
+            <div class="header-left">
+                <button id="sidebar-toggle-btn" class="toggle-btn" aria-label="Toggle Navigation">
+                    <i data-lucide="menu"></i>
+                </button>
+                <h1 class="app-title">Yu's Infinity Toolkit Pro</h1>
+            </div>
+            <button id="theme-toggle-btn" class="toggle-btn" aria-label="Toggle Theme">
+                <i data-lucide="sun" class="light-icon"></i>
+                <i data-lucide="moon" class="dark-icon"></i>
+            </button>
+        </header>
+
+        <div class="app-container">
+            
+            <!-- Sidebar Navigation Menu -->
+            <aside class="sidebar" id="sidebar">
+                <div class="search-box">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="tool-search" placeholder="Search 28 tools...">
+                </div>
+                <nav class="nav-menu" id="nav-menu">
+                    <!-- Navigation links will scroll to sections/tools -->
+                    <section>
+                        <h3>General</h3>
+                        <ul>
+                            <li data-tool-id="basic_calculator"><a href="#basic_calculator">Basic Calculator</a></li>
+                            <li data-tool-id="percentage"><a href="#percentage">Percentage Calculator</a></li>
+                            <li data-tool-id="date_age"><a href="#date_age">Date & Age Calculator</a></li>
+                            <li data-tool-id="random_number"><a href="#random_number">Random Number Generator</a></li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h3>Financial</h3>
+                        <ul>
+                            <li data-tool-id="loan_calculator"><a href="#loan_calculator">Loan Calculator</a></li>
+                            <li data-tool-id="compound_interest"><a href="#compound_interest">Compound Interest</a></li>
+                            <li data-tool-id="mortgage_calculator"><a href="#mortgage_calculator">Mortgage Calculator</a></li>
+                            <li data-tool-id="tax_calculator"><a href="#tax_calculator">Tax Calculator</a></li>
+                            <li data-tool-id="discount_markup"><a href="#discount_markup">Discount & Markup</a></li>
+                            <li data-tool-id="tip_calculator"><a href="#tip_calculator">Tip & Split Calculator</a></li>
+                            <li data-tool-id="revenue_profit"><a href="#revenue_profit">Revenue / Profit</a></li>
+                            <li data-tool-id="salary_calculator"><a href="#salary_calculator">Salary Converter</a></li>
+                            <li data-tool-id="depreciation"><a href="#depreciation">Depreciation (SL)</a></li>
+                            <li data-tool-id="savings_investment"><a href="#savings_investment">Savings Goal</a></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Health</h3>
+                        <ul>
+                            <li data-tool-id="bmi_calculator"><a href="#bmi_calculator">BMI Calculator</a></li>
+                            <li data-tool-id="calorie_calculator"><a href="#calorie_calculator">Calorie Calculator (BMR)</a></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Science & Engineering</h3>
+                        <ul>
+                            <li data-tool-id="scientific_calculator"><a href="#scientific_calculator">Scientific Calculator</a></li>
+                            <li data-tool-id="age_on_planets"><a href="#age_on_planets">Age on Other Planets</a></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Universal Converters</h3>
+                        <ul>
+                            <li data-tool-id="unit_converter"><a href="#unit_converter">Length Converter</a></li>
+                            <li data-tool-id="temperature_converter"><a href="#temperature_converter">Temperature Converter</a></li>
+                            <li data-tool-id="currency_converter"><a href="#currency_converter">Currency Converter</a></li>
+                            <li data-tool-id="time_zone"><a href="#time_zone">Time Zone Converter</a></li>
+                            <li data-tool-id="energy_converter"><a href="#energy_converter">Energy Converter</a></li>
+                            <li data-tool-id="pressure_converter"><a href="#pressure_converter">Pressure Converter</a></li>
+                            <li data-tool-id="speed_converter"><a href="#speed_converter">Speed Converter</a></li>
+                            <li data-tool-id="data_storage"><a href="#data_storage">Data Storage Converter</a></li>
+                            <li data-tool-id="file_size_estimator"><a href="#file_size_estimator">File Size Estimator</a></li>
+                            <li data-tool-id="time_duration"><a href="#time_duration">Time Duration Converter</a></li>
+                        </ul>
+                    </section>
+                </nav>
+            </aside>
+
+            <!-- Main Scrollable Content Area -->
+            <main class="main-content" id="main-content">
+                <!-- Banner Placeholder -->
+                <div class="info-card banner-placeholder">
+                    <i data-lucide="zap"></i>
+                    <p>Yu's Infinity Toolkit Pro: All 28 professional tools instantly available.</p>
+                </div>
+
+                <!-- ============================================== -->
+                <!--                  1. GENERAL TOOLS              -->
+                <!-- ============================================== -->
+                <h2 class="category-title" id="general_tools">General Calculations & Utilities</h2>
+                <div class="tool-category-grid">
+                    
+                    <!-- Basic Calculator -->
+                    <section id="basic_calculator" class="tool-section">
+                        <h3>Basic Calculator</h3>
+                        <p class="tool-subtitle">Simple arithmetic for quick tasks.</p>
+                        <div class="tool-card calculator-grid">
+                            <div class="display"><input type="text" id="calc-display" value="0" readonly></div>
+                            <div class="buttons basic-buttons">
+                                <button class="btn-func" data-value="C">C</button><button class="btn-func" data-value="B">←</button>
+                                <button class="btn-op" data-value="%">%</button><button class="btn-op" data-value="/">÷</button>
+                                <button class="btn-num" data-value="7">7</button><button class="btn-num" data-value="8">8</button>
+                                <button class="btn-num" data-value="9">9</button><button class="btn-op" data-value="*">×</button>
+                                <button class="btn-num" data-value="4">4</button><button class="btn-num" data-value="5">5</button>
+                                <button class="btn-num" data-value="6">6</button><button class="btn-op" data-value="-">-</button>
+                                <button class="btn-num" data-value="1">1</button><button class="btn-num" data-value="2">2</button>
+                                <button class="btn-num" data-value="3">3</button><button class="btn-op" data-value="+">+</button>
+                                <button class="btn-num zero" data-value="0">0</button><button class="btn-num" data-value=".">.</button>
+                                <button class="btn-equals" data-value="=">=</button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Percentage Calculator -->
+                    <section id="percentage" class="tool-section">
+                        <h3>Percentage Calculator</h3>
+                        <p class="tool-subtitle">Find A is what percent of B.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="perc-part-a">Part (A)</label><input type="number" id="perc-part-a" placeholder="e.g., 50"></div>
+                            <div class="input-group"><label for="perc-total-b">Total (B)</label><input type="number" id="perc-total-b" placeholder="e.g., 200"></div>
+                            <div class="result-box full-width" id="perc-result-box">
+                                <span class="result-label">A is:</span><span class="result-value" id="perc-output-value">0.00%</span><span class="result-status">of B</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Date & Age Calculator -->
+                    <section id="date_age" class="tool-section">
+                        <h3>Date & Age Calculator</h3>
+                        <p class="tool-subtitle">Calculate the difference between two dates.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="date-start">Start Date</label><input type="date" id="date-start" value="2000-01-01"></div>
+                            <div class="input-group"><label for="date-end">End Date</label><input type="date" id="date-end"></div>
+                            <div class="result-box full-width" id="date-age-result-box">
+                                <span class="result-label">Difference:</span><span class="result-value" id="date-age-output">0 Years, 0 Days</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Random Number Generator -->
+                    <section id="random_number" class="tool-section">
+                        <h3>Random Number Generator</h3>
+                        <p class="tool-subtitle">Generate a random integer within a range.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="rand-min">Minimum Value</label><input type="number" id="rand-min" value="1"></div>
+                            <div class="input-group"><label for="rand-max">Maximum Value</label><input type="number" id="rand-max" value="100"></div>
+                            <button class="btn-accent full-width" id="generate-random">Generate Number</button>
+                            <div class="result-box full-width" id="rand-result-box">
+                                <span class="result-label">Random Result:</span><span class="result-value" id="rand-output-value">--</span>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <!-- ============================================== -->
+                <!--                  2. FINANCIAL TOOLS            -->
+                <!-- ============================================== -->
+                <h2 class="category-title" id="financial_tools">Financial & Investment Toolkit</h2>
+                <div class="tool-category-grid">
+                    
+                    <!-- Loan Calculator -->
+                    <section id="loan_calculator" class="tool-section">
+                        <h3>Loan Calculator</h3>
+                        <p class="tool-subtitle">Estimate monthly payment and total interest.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="loan-amount">Amount ($)</label><input type="number" id="loan-amount" placeholder="25000"></div>
+                            <div class="input-group"><label for="loan-rate">Annual Rate (%)</label><input type="number" id="loan-rate" placeholder="6.5" step="0.01"></div>
+                            <div class="input-group"><label for="loan-years">Term (Years)</label><input type="number" id="loan-years" placeholder="5" min="1"></div>
+                            <div class="result-box full-width" id="loan-result-box">
+                                <span class="result-label">Monthly Payment:</span><span class="result-value" id="loan-monthly-payment">$0.00</span>
+                                <span class="result-status" id="loan-total-interest">Total Interest: $0.00</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Compound Interest Calculator -->
+                    <section id="compound_interest" class="tool-section">
+                        <h3>Compound Interest</h3>
+                        <p class="tool-subtitle">Calculate future value of an investment.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="ci-principal">Principal ($)</label><input type="number" id="ci-principal" placeholder="1000"></div>
+                            <div class="input-group"><label for="ci-rate">Annual Rate (%)</label><input type="number" id="ci-rate" placeholder="5" step="0.1"></div>
+                            <div class="input-group"><label for="ci-years">Time (Years)</label><input type="number" id="ci-years" placeholder="10" min="1"></div>
+                            <div class="input-group"><label for="ci-n">Compounds/Year (n)</label><select id="ci-n"><option value="1">Annually</option><option value="12" selected>Monthly</option></select></div>
+                            <div class="result-box full-width" id="ci-result-box">
+                                <span class="result-label">Future Value:</span><span class="result-value" id="ci-future-value">$0.00</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Mortgage Calculator -->
+                    <section id="mortgage_calculator" class="tool-section">
+                        <h3>Mortgage Calculator</h3>
+                        <p class="tool-subtitle">Estimate home loan principal and payment.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="mortgage-price">Home Price ($)</label><input type="number" id="mortgage-price" placeholder="300000" min="0"></div>
+                            <div class="input-group"><label for="mortgage-down">Down Payment ($)</label><input type="number" id="mortgage-down" placeholder="50000" min="0"></div>
+                            <div class="input-group"><label for="mortgage-rate">Rate (%)</label><input type="number" id="mortgage-rate" placeholder="4.5" step="0.01"></div>
+                            <div class="input-group"><label for="mortgage-years">Term (Years)</label><input type="number" id="mortgage-years" placeholder="30" min="1"></div>
+                            <div class="result-box full-width" id="mortgage-result-box">
+                                <span class="result-label">Loan Principal:</span><span class="result-value" id="mortgage-principal-output">$0.00</span>
+                                <span class="result-status" id="mortgage-monthly-output">Monthly Payment: $0.00</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Tax Calculator -->
+                    <section id="tax_calculator" class="tool-section">
+                        <h3>Tax Calculator</h3>
+                        <p class="tool-subtitle">Calculate tax amount and total price.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="tax-price">Original Price ($)</label><input type="number" id="tax-price" placeholder="100.00" min="0"></div>
+                            <div class="input-group"><label for="tax-rate">Tax Rate (%)</label><input type="number" id="tax-rate" placeholder="10" min="0" step="0.1"></div>
+                            <div class="result-box full-width" id="tax-result-box">
+                                <span class="result-label">Tax Amount:</span><span class="result-value" id="tax-amount-output">$0.00</span>
+                                <span class="result-status" id="tax-total-output">Total: $0.00</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Discount & Markup Calculator -->
+                    <section id="discount_markup" class="tool-section">
+                        <h3>Discount & Markup</h3>
+                        <p class="tool-subtitle">Calculate final price after adjustment.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="dm-price">Original Price ($)</label><input type="number" id="dm-price" placeholder="100.00" min="0"></div>
+                            <div class="input-group"><label for="dm-percent">Percent (%)</label><input type="number" id="dm-percent" placeholder="20" step="0.1"></div>
+                            <div class="input-group full-width"><label for="dm-type">Type</label><select id="dm-type"><option value="discount">Discount</option><option value="markup">Markup</option></select></div>
+                            <div class="result-box full-width" id="dm-result-box">
+                                <span class="result-label">Final Price:</span><span class="result-value" id="dm-final-output">$0.00</span>
+                                <span class="result-status" id="dm-saved-output">Saved/Added: $0.00</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Tip Calculator -->
+                    <section id="tip_calculator" class="tool-section">
+                        <h3>Tip & Split Calculator</h3>
+                        <p class="tool-subtitle">Calculate tip and total per person.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="tip-bill">Bill Amount ($)</label><input type="number" id="tip-bill" placeholder="50.00" min="0"></div>
+                            <div class="input-group"><label for="tip-percent">Tip %</label><input type="number" id="tip-percent" value="15" min="0"></div>
+                            <div class="input-group full-width"><label for="tip-split"># of People</label><input type="number" id="tip-split" value="1" min="1"></div>
+                            <div class="result-box full-width" id="tip-result-box">
+                                <span class="result-label">Tip:</span><span class="result-value" id="tip-amount-output">$0.00</span>
+                                <span class="result-status" id="tip-per-person">Total Per Person: $0.00</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Revenue / Profit Calculator -->
+                    <section id="revenue_profit" class="tool-section">
+                        <h3>Revenue / Profit</h3>
+                        <p class="tool-subtitle">Calculate net profit and margin.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="rp-revenue">Total Revenue ($)</label><input type="number" id="rp-revenue" placeholder="10000" min="0"></div>
+                            <div class="input-group"><label for="rp-cost">Total Cost ($)</label><input type="number" id="rp-cost" placeholder="4000" min="0"></div>
+                            <div class="result-box full-width" id="rp-result-box">
+                                <span class="result-label">Net Profit:</span><span class="result-value" id="rp-profit-output">$0.00</span>
+                                <span class="result-status" id="rp-margin-output">Profit Margin: 0.00%</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Salary Calculator -->
+                    <section id="salary_calculator" class="tool-section">
+                        <h3>Salary Converter</h3>
+                        <p class="tool-subtitle">Convert annual salary to other frequencies.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="salary-annual">Annual Salary ($)</label><input type="number" id="salary-annual" placeholder="60000"></div>
+                            <div class="input-group"><label for="salary-frequency">Frequency</label><select id="salary-frequency"><option value="monthly">Monthly</option><option value="weekly">Weekly</option><option value="daily">Daily</option></select></div>
+                            <div class="result-box full-width" id="salary-result-box">
+                                <span class="result-label">Converted Amount:</span><span class="result-value" id="salary-output">$0.00</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Depreciation Calculator -->
+                    <section id="depreciation" class="tool-section">
+                        <h3>Depreciation (SL)</h3>
+                        <p class="tool-subtitle">Calculate annual depreciation (Straight-Line).</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="dep-cost">Asset Cost ($)</label><input type="number" id="dep-cost" placeholder="10000" min="0"></div>
+                            <div class="input-group"><label for="dep-salvage">Salvage Value ($)</label><input type="number" id="dep-salvage" placeholder="1000" min="0"></div>
+                            <div class="input-group full-width"><label for="dep-years">Useful Life (Years)</label><input type="number" id="dep-years" placeholder="5" min="1"></div>
+                            <div class="result-box full-width" id="dep-result-box">
+                                <span class="result-label">Annual Depreciation:</span><span class="result-value" id="dep-output">$0.00</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Savings & Investment Calculator -->
+                    <section id="savings_investment" class="tool-section">
+                        <h3>Savings Goal</h3>
+                        <p class="tool-subtitle">Estimate time to reach a savings goal.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="sav-goal">Goal Amount ($)</label><input type="number" id="sav-goal" placeholder="50000" min="1"></div>
+                            <div class="input-group"><label for="sav-contribution">Monthly Contribution ($)</label><input type="number" id="sav-contribution" placeholder="500" min="1"></div>
+                            <div class="result-box full-width" id="sav-result-box">
+                                <span class="result-label">Time to Goal:</span><span class="result-value" id="sav-output">0 Months</span>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <!-- ============================================== -->
+                <!--                  3. HEALTH TOOLS               -->
+                <!-- ============================================== -->
+                <h2 class="category-title" id="health_tools">Health & Fitness Trackers</h2>
+                <div class="tool-category-grid">
+                    
+                    <!-- BMI Calculator -->
+                    <section id="bmi_calculator" class="tool-section">
+                        <h3>BMI Calculator</h3>
+                        <p class="tool-subtitle">Calculate your Body Mass Index (BMI).</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="bmi-weight">Weight (kg)</label><input type="number" id="bmi-weight" placeholder="e.g., 70" min="1"></div>
+                            <div class="input-group"><label for="bmi-height">Height (cm)</label><input type="number" id="bmi-height" placeholder="e.g., 175" min="1"></div>
+                            <button class="btn-accent full-width" id="calculate-bmi">Calculate BMI</button>
+                            <div class="result-box" id="bmi-result-box">
+                                <span class="result-label">BMI:</span><span class="result-value" id="bmi-value">--</span>
+                                <span class="result-status" id="bmi-status">Enter values to see status</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Calorie Calculator -->
+                    <section id="calorie_calculator" class="tool-section">
+                        <h3>Calorie Calculator (BMR)</h3>
+                        <p class="tool-subtitle">Estimate your Basal Metabolic Rate (BMR).</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="cal-gender">Gender</label><select id="cal-gender"><option value="male">Male</option><option value="female">Female</option></select></div>
+                            <div class="input-group"><label for="cal-age">Age (Years)</label><input type="number" id="cal-age" placeholder="30" min="1"></div>
+                            <div class="input-group"><label for="cal-weight">Weight (kg)</label><input type="number" id="cal-weight" placeholder="70" min="1"></div>
+                            <div class="input-group"><label for="cal-height">Height (cm)</label><input type="number" id="cal-height" placeholder="175" min="1"></div>
+                            <div class="result-box full-width" id="cal-result-box">
+                                <span class="result-label">Daily BMR:</span><span class="result-value" id="cal-output-value">--</span><span class="result-status">Calories/Day</span>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <!-- ============================================== -->
+                <!--            4. SCIENCE & ENGINEERING            -->
+                <!-- ============================================== -->
+                <h2 class="category-title" id="science_tools">Science & Engineering Tools</h2>
+                <div class="tool-category-grid">
+                    
+                    <!-- Scientific Calculator -->
+                    <section id="scientific_calculator" class="tool-section full-width-card">
+                        <h3>Scientific Calculator</h3>
+                        <p class="tool-subtitle">Advanced functions for trigonometry, logs, and powers.</p>
+                        <div class="tool-card calculator-grid scientific-grid">
+                            <div class="display"><input type="text" id="sci-calc-display" value="0" readonly></div>
+                            <div class="buttons sci-buttons">
+                                <button class="btn-sci" data-value="sin">sin</button><button class="btn-sci" data-value="cos">cos</button>
+                                <button class="btn-sci" data-value="tan">tan</button><button class="btn-sci" data-value="log">log</button>
+                                <button class="btn-sci" data-value="^">x^y</button><button class="btn-sci" data-value="sqrt">√</button>
+                                <button class="btn-sci" data-value="pi">π</button><button class="btn-func" data-value="C">C</button>
+                                <button class="btn-func" data-value="B">←</button><button class="btn-op" data-value="/">÷</button>
+                                <button class="btn-num" data-value="7">7</button><button class="btn-num" data-value="8">8</button>
+                                <button class="btn-num" data-value="9">9</button><button class="btn-op" data-value="*">×</button>
+                                <button class="btn-num" data-value="4">4</button><button class="btn-num" data-value="5">5</button>
+                                <button class="btn-num" data-value="6">6</button><button class="btn-op" data-value="-">-</button>
+                                <button class="btn-num" data-value="1">1</button><button class="btn-num" data-value="2">2</button>
+                                <button class="btn-num" data-value="3">3</button><button class="btn-op" data-value="+">+</button>
+                                <button class="btn-num zero" data-value="0">0</button><button class="btn-num" data-value=".">.</button>
+                                <button class="btn-equals" data-value="=">=</button>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Age on Other Planets -->
+                    <section id="age_on_planets" class="tool-section">
+                        <h3>Age on Other Planets</h3>
+                        <p class="tool-subtitle">See your age across the solar system.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="planet-age-earth">Your Age (Earth Years)</label><input type="number" id="planet-age-earth" placeholder="30" min="1"></div>
+                            <div class="input-group"><label for="planet-select">Planet</label><select id="planet-select"><option value="0.24">Mercury</option><option value="11.86">Jupiter</option><option value="164.79">Neptune</option></select></div>
+                            <div class="result-box full-width" id="planet-result-box">
+                                <span class="result-label">Planetary Age:</span><span class="result-value" id="planet-output-value">--</span><span class="result-status">Years Old</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                </div>
+
+                <!-- ============================================== -->
+                <!--             5. CONVERTERS (Unified)            -->
+                <!-- ============================================== -->
+                <h2 class="category-title" id="converter_tools">Universal Converters (Length, Time, Energy, Digital)</h2>
+                <div class="tool-category-grid">
+                    
+                    <!-- Unit Converter (Length) -->
+                    <section id="unit_converter" class="tool-section">
+                        <h3>Length Converter</h3>
+                        <p class="tool-subtitle">Convert between Meters and Feet.</p>
+                        <div class="tool-card converter-layout">
+                            <div class="converter-input-group"><label for="unit-input-value">Value</label><input type="number" id="unit-input-value" placeholder="10"></div>
+                            <div class="converter-select-group"><label for="unit-input-unit">From</label><select id="unit-input-unit"><option value="M">Meter (m)</option><option value="FT">Feet (ft)</option></select></div>
+                            <button class="btn-swap" id="unit-swap-btn" aria-label="Swap Units"><i data-lucide="arrow-down-up"></i></button>
+                            <div class="converter-output-group"><label for="unit-output-unit">To</label><select id="unit-output-unit" disabled><option value="FT">Feet (ft)</option><option value="M">Meter (m)</option></select></div>
+                            <div class="result-box full-width" id="unit-result-box"><span class="result-label">Result:</span><span class="result-value" id="unit-output-value">0.00</span></div>
+                        </div>
+                    </section>
+
+                    <!-- Temperature Converter -->
+                    <section id="temperature_converter" class="tool-section">
+                        <h3>Temperature Converter</h3>
+                        <p class="tool-subtitle">Convert between Celsius and Fahrenheit.</p>
+                        <div class="tool-card converter-layout">
+                            <div class="converter-input-group"><label for="temp-input-value">Value</label><input type="number" id="temp-input-value" placeholder="0"></div>
+                            <div class="converter-select-group"><label for="temp-input-unit">From</label><select id="temp-input-unit"><option value="C">Celsius (°C)</option><option value="F">Fahrenheit (°F)</option></select></div>
+                            <button class="btn-swap" id="temp-swap-btn" aria-label="Swap Units"><i data-lucide="arrow-down-up"></i></button>
+                            <div class="converter-output-group"><label for="temp-output-unit">To</label><select id="temp-output-unit" disabled><option value="F">Fahrenheit (°F)</option><option value="C">Celsius (°C)</option></select></div>
+                            <div class="result-box full-width" id="temp-result-box"><span class="result-label">Result:</span><span class="result-value" id="temp-output-value">0.00</span></div>
+                        </div>
+                    </section>
+
+                    <!-- Currency Converter -->
+                    <section id="currency_converter" class="tool-section">
+                        <h3>Currency Converter</h3>
+                        <p class="tool-subtitle">Convert between global currencies (Static FX Rate).</p>
+                        <div class="tool-card converter-layout">
+                            <div class="converter-input-group"><label for="curr-input-value">Amount</label><input type="number" id="curr-input-value" placeholder="100"></div>
+                            <div class="converter-select-group"><label for="curr-input-unit">From</label><select id="curr-input-unit"><option value="USD">USD ($)</option><option value="EUR">EUR (€)</option></select></div>
+                            <button class="btn-swap" id="curr-swap-btn" aria-label="Swap Units"><i data-lucide="arrow-down-up"></i></button>
+                            <div class="converter-output-group"><label for="curr-output-unit">To</label><select id="curr-output-unit" disabled><option value="EUR">EUR (€)</option><option value="USD">USD ($)</option></select></div>
+                            <div class="result-box full-width" id="curr-result-box"><span class="result-label">Result:</span><span class="result-value" id="curr-output-value">0.00</span></div>
+                        </div>
+                    </section>
+
+                    <!-- Time Zone Converter -->
+                    <section id="time_zone" class="tool-section">
+                        <h3>Time Zone Converter</h3>
+                        <p class="tool-subtitle">Compare times across two different time zones (Static Offsets).</p>
+                        <div class="tool-card form-grid" id="timezone-form">
+                            <div class="input-group"><label for="tz-base-time">Base Time (e.g., 10:00 AM)</label><input type="text" id="tz-base-time" value="10:00 AM" readonly></div>
+                            <div class="input-group"><label for="tz-offset-a">City A (Base Offset)</label><select id="tz-offset-a"><option value="-5" selected>New York (UTC-5)</option><option value="0">London (UTC+0)</option><option value="9.5">Adelaide (UTC+9:30)</option></select></div>
+                            <div class="input-group"><label for="tz-offset-b">City B (Target Offset)</label><select id="tz-offset-b"><option value="-5">New York (UTC-5)</option><option value="0" selected>London (UTC+0)</option><option value="9.5">Adelaide (UTC+9:30)</option></select></div>
+                            <div class="result-box full-width" id="timezone-result-box">
+                                <span class="result-label">Time in City B:</span><span class="result-value" id="tz-output-value">--</span>
+                                <span class="result-status">Difference: <span id="tz-diff-output">--</span> hours</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Energy Converter -->
+                    <section id="energy_converter" class="tool-section">
+                        <h3>Energy Converter</h3>
+                        <p class="tool-subtitle">Convert between Joules and Calories.</p>
+                        <div class="tool-card converter-layout">
+                            <div class="converter-input-group"><label for="energy-input-value">Value</label><input type="number" id="energy-input-value" placeholder="1000"></div>
+                            <div class="converter-select-group"><label for="energy-input-unit">From</label><select id="energy-input-unit"><option value="JOULE">Joule (J)</option><option value="CALORIE">Calorie (cal)</option></select></div>
+                            <button class="btn-swap" id="energy-swap-btn" aria-label="Swap Units"><i data-lucide="arrow-down-up"></i></button>
+                            <div class="converter-output-group"><label for="energy-output-unit">To</label><select id="energy-output-unit" disabled><option value="CALORIE">Calorie (cal)</option><option value="JOULE">Joule (J)</option></select></div>
+                            <div class="result-box full-width" id="energy-result-box"><span class="result-label">Result:</span><span class="result-value" id="energy-output-value">0.00</span></div>
+                        </div>
+                    </section>
+
+                    <!-- Pressure Converter -->
+                    <section id="pressure_converter" class="tool-section">
+                        <h3>Pressure Converter</h3>
+                        <p class="tool-subtitle">Convert between PSI and Bar.</p>
+                        <div class="tool-card converter-layout">
+                            <div class="converter-input-group"><label for="pressure-input-value">Value</label><input type="number" id="pressure-input-value" placeholder="10"></div>
+                            <div class="converter-select-group"><label for="pressure-input-unit">From</label><select id="pressure-input-unit"><option value="PSI">PSI</option><option value="BAR">Bar</option></select></div>
+                            <button class="btn-swap" id="pressure-swap-btn" aria-label="Swap Units"><i data-lucide="arrow-down-up"></i></button>
+                            <div class="converter-output-group"><label for="pressure-output-unit">To</label><select id="pressure-output-unit" disabled><option value="BAR">Bar</option><option value="PSI">PSI</option></select></div>
+                            <div class="result-box full-width" id="pressure-result-box"><span class="result-label">Result:</span><span class="result-value" id="pressure-output-value">0.00</span></div>
+                        </div>
+                    </section>
+
+                    <!-- Speed Converter -->
+                    <section id="speed_converter" class="tool-section">
+                        <h3>Speed Converter</h3>
+                        <p class="tool-subtitle">Convert between km/h and mph.</p>
+                        <div class="tool-card converter-layout">
+                            <div class="converter-input-group"><label for="speed-input-value">Value</label><input type="number" id="speed-input-value" placeholder="100"></div>
+                            <div class="converter-select-group"><label for="speed-input-unit">From</label><select id="speed-input-unit"><option value="KMH">km/h</option><option value="MPH">mph</option></select></div>
+                            <button class="btn-swap" id="speed-swap-btn" aria-label="Swap Units"><i data-lucide="arrow-down-up"></i></button>
+                            <div class="converter-output-group"><label for="speed-output-unit">To</label><select id="speed-output-unit" disabled><option value="MPH">mph</option><option value="KMH">km/h</option></select></div>
+                            <div class="result-box full-width" id="speed-result-box"><span class="result-label">Result:</span><span class="result-value" id="speed-output-value">0.00</span></div>
+                        </div>
+                    </section>
+                    
+                    <!-- Data Storage Converter -->
+                    <section id="data_storage" class="tool-section">
+                        <h3>Data Storage Converter</h3>
+                        <p class="tool-subtitle">Convert between MB, GB, TB.</p>
+                        <div class="tool-card converter-layout">
+                            <div class="converter-input-group"><label for="data-input-value">Value</label><input type="number" id="data-input-value" placeholder="1"></div>
+                            <div class="converter-select-group"><label for="data-input-unit">From</label><select id="data-input-unit"><option value="MB" selected>Megabyte (MB)</option><option value="GB">Gigabyte (GB)</option><option value="TB">Terabyte (TB)</option></select></div>
+                            <button class="btn-swap" id="data-swap-btn" aria-label="Swap Units"><i data-lucide="arrow-down-up"></i></button>
+                            <div class="converter-output-group"><label for="data-output-unit">To</label><select id="data-output-unit"><option value="MB">Megabyte (MB)</option><option value="GB" selected>Gigabyte (GB)</option><option value="TB">Terabyte (TB)</option></select></div>
+                            <div class="result-box full-width" id="data-result-box"><span class="result-label">Result:</span><span class="result-value" id="data-output-value">0.00</span></div>
+                        </div>
+                    </section>
+
+                    <!-- File Size Estimator -->
+                    <section id="file_size_estimator" class="tool-section">
+                        <h3>File Size Estimator</h3>
+                        <p class="tool-subtitle">Estimate total size based on quantity.</p>
+                        <div class="tool-card form-grid">
+                            <div class="input-group"><label for="fse-file-size">File Size (MB)</label><input type="number" id="fse-file-size" placeholder="5" min="0"></div>
+                            <div class="input-group"><label for="fse-file-count"># of Files</label><input type="number" id="fse-file-count" placeholder="100" min="0"></div>
+                            <div class="result-box full-width" id="fse-result-box">
+                                <span class="result-label">Total Size:</span><span class="result-value" id="fse-output-value">0.00 MB</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Time Duration Converter -->
+                    <section id="time_duration" class="tool-section">
+                        <h3>Time Duration Converter</h3>
+                        <p class="tool-subtitle">Convert days/hours/minutes to seconds.</p>
+                        <div class="tool-card form-grid time-grid">
+                            <div class="input-group"><label for="td-days">Days</label><input type="number" id="td-days" value="0" min="0"></div>
+                            <div class="input-group"><label for="td-hours">Hours</label><input type="number" id="td-hours" value="0" min="0"></div>
+                            <div class="input-group"><label for="td-minutes">Minutes</label><input type="number" id="td-minutes" value="0" min="0"></div>
+                            <div class="result-box full-width" id="td-result-box"><span class="result-label">Total Seconds:</span><span class="result-value" id="td-output-value">0</span></div>
+                        </div>
+                    </section>
+
+                </div>
+
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
